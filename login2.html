@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN2</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background: rgba(255,93,177,1);
+            background: -moz-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(120,52,247,1) 99%, rgba(85,3,237,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,93,177,1)), color-stop(99%, rgba(120,52,247,1)), color-stop(100%, rgba(85,3,237,1)));
+            background: -webkit-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(120,52,247,1) 99%, rgba(85,3,237,1) 100%);
+            background: -o-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(120,52,247,1) 99%, rgba(85,3,237,1) 100%);
+            background: -ms-linear-gradient(left, rgba(255,93,177,1) 0%, rgba(120,52,247,1) 99%, rgba(85,3,237,1) 100%);
+            background: linear-gradient(to right, rgba(255,93,177,1) 0%, rgba(120,52,247,1) 99%, rgba(85,3,237,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#5503ed', GradientType=1 );
+        }
+        .form{
+            align-items: center;
+            text-align: center;
+            height: 400px;
+            width: 900px;
+            background-color: rgb(26, 26, 26);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 25px;
+        }
+        .head{
+            letter-spacing: 0.5em;
+            font-family: serif;
+            color: beige;
+        }
+        .inbar{
+            align-items: center;
+            width: 35%;
+            height: 40px;
+            border: 2px solid rgb(34, 37, 199);
+            border-radius: 25px;
+            background-color: rgb(26, 26, 26);
+            padding-left: 30px;
+            padding-right: 30px;
+            font-family: serif;
+            color: white;
+            font-size: 18px;
+        }
+        ::placeholder{
+            color: white;
+            text-align: center;
+            letter-spacing: 0.2em;
+        }
+        .log{
+            height: 40px;
+            width: 35%;
+            background-color: rgb(26, 26, 26);
+            border: 1px solid gray;
+            border-radius: 10px;
+            color: white;
+            letter-spacing: 0.3em;
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="form">
+        <h3 class="head">LOGIN</h3>
+        <input type="text" class="inbar" placeholder="USERNAME" >
+        <input type="password" class="inbar" name="" id="pbar" placeholder="PASSWORD">
+        <a style="text-decoration: none; color: bisque;" href="forget.html" >forgot password?</a>
+        <input type="button" class="log" value="LOGIN" name="" id="" onclick="alert('hi')">
+        <a style="text-decoration: none; color: bisque;" href="register2.html" >Are you new here?</a>
+    </form>
+</body>
+</html>

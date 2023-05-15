@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body{
+            background-image: url(bg.jpg);
+            background-size: 100%;
+            display: flex;
+        }
+        .pclass{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(160, 157, 155, 0.349);
+            height: 600px;
+            width: 380px;
+            border: 1px solid gray ;
+            border-radius: 5%;
+            margin: auto;
+            padding: 10px;
+            -webkit-box-shadow: -2px 2px 72px -1px rgba(0,0,0,0.75);
+            -moz-box-shadow: -2px 2px 72px -1px rgba(0,0,0,0.75);
+            box-shadow: -2px 2px 72px -1px rgba(0,0,0,0.75);
+        }
+        .header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 10px;
+        }
+        .fl{
+            font-family:'Times New Roman';
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+        }
+        .inputs{
+            height: 480px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            row-gap: 20px;
+        }
+        .bars{
+            margin-bottom: 5px;
+            font-size: 20px;
+            height: 25px;
+            width: 280px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+            font-family: 'Times New Roman';
+            background-color: rgba(240, 248, 255, 0.274);
+        }
+        ::placeholder{
+            color: rgb(41, 41, 41);
+            opacity: 1;
+            font-weight: 10px;
+        }
+        .logbtn{
+            height: 45px;
+            width: 200px;
+            background-color: rgba(250, 235, 215, 0.295);
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 24px;
+            font-family: 'Gill Sans';
+            color: beige;
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="pclass">
+        <header class="header">
+            <a style="text-decoration:none" href="login.html"><div class="fl">LOGIN&emsp;&nbsp;|&nbsp;&emsp;</div></a>
+            <a style="text-decoration:none" href="signup.html"><span class="fl">SIGN UP</span></a>
+        </header>
+        <div class="inputs">
+            <input class="bars" type="text" name="" id="fname" placeholder="First name">
+            <input class="bars" type="text" name="" id="lname" placeholder="Last name">
+            <input class="bars" type="email" name="" id="mailbar" placeholder="Email">
+            <input class="bars" type="tel" name="" id="num" placeholder="Mobile number">
+            <input class="bars" type="password" name="" id="passbar" placeholder="Password">
+            <input class="bars" type="password" name="" id="cpassbar" placeholder="Confirm Password">
+            <input type="button" value="SIGN UP" class="logbtn" onclick="alert('hi')">
+            
+        </div>
+        
+    </form>
+</body>
+</html>

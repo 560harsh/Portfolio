@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/7c581da073.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <style>
+        .head{
+            display: flex;
+            height: 55px;
+            width: 100%;
+            background-color:rgb(255, 255, 255);
+            column-gap: 7px;
+        }
+        .div{
+            padding: 3px;
+        }
+        .img{
+            margin-top: 10px;
+            height: 40px;
+            width: 40px;
+        }
+        .nsh{
+            font-family: serif;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        
+        .selecd{
+            font-family: serif;
+            font-size: 16px;
+            margin-top: 10px;
+            text-align: center;
+            width: 120px;
+            margin-left: 3px;
+            border-radius: 5px;
+        }
+        .rebtn{
+            margin-left: 50%;
+            margin-top: 15px;
+            height: 50%;
+            background: none;
+            border: none;
+        }
+        .rebtn:hover{
+            background-color: rgba(179, 178, 178, 0.219);
+            border-radius: 5px;
+        }
+        #users{
+            margin-left: 15px;
+            margin-top: 16px;
+            padding: 7px;
+            border: 1px solid gainsboro;
+            border-radius: 5px;
+        }
+        #userss{
+            margin-left: 10px;
+            margin-top: 16px;
+            padding: 7px;
+            border: 1px solid gainsboro;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="head">
+            <img class="img" src="1650263825934.jpg" alt="">
+            <span class="nsh">NEWTON SCHOOL</span>
+            <button class="rebtn">Refer a Friend 🚀</button>
+            <div class="selecd">
+                <select name="" id="selection" class="selecd">
+                    <option value="select batch" selected>Select batch</option>
+                    <option value="batch 1"> Batch 1</option>
+                    <option value="batch 2"> Batch 2</option>
+                    <option value="batch 3"> Batch 3</option>
+                </select>
+            </div>
+            <div class="icon">
+                <i id="users" class="fa-solid fa-user-group"></i>
+                <i id="userss" class="fa-solid fa-bell"></i>
+            </div>
+            
+            
+    </header>
+</body>
+</html>
