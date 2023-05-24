@@ -1,7 +1,14 @@
+/* *{
+    outline: 1px solid red;
+} */
 .body{
     background: url('bg.png') no-repeat;
     background-size: cover;
     margin-bottom: 0%;
+    margin: 0%;
+}
+.deta{
+    
 }
 .hedname{
     color: white;
@@ -12,6 +19,7 @@
     text-decoration: none;
 }
 .navi{
+    
     display: flex;
     justify-content: space-between;
     margin: 15px;
@@ -29,6 +37,7 @@
         background: url('phonebg.png') no-repeat;
         background-size: cover;
         width: 100%;
+        background-position:inherit;
     }
     .navi{
         display: flex;
@@ -180,10 +189,10 @@
         margin-left: 0;
         justify-content: flex-start;
     }
-    .btn-box{
+    .ha .btn-box{
         display: flex;
         flex-direction: column;
-        
+        width: auto;
     }
     .btn-box a{
         min-height: 50px;
@@ -198,4 +207,9 @@
     .home-sci a{
         position: relative;
     }
+}
+.projects{
+    background-color: #081b29;
+    height: 500px;
+    width: 100%;
 }
